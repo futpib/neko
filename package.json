@@ -18,6 +18,8 @@
     "xo": "^0.18.0"
   },
   "scripts": {
-    "test": "xo && ava && flow"
+    "test": "xo && ava",
+    "xo": "xo",
+    "ava": "ava"
   }
 }
