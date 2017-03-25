@@ -1,0 +1,23 @@
+{
+  "name": "neko",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "GPL-3.0+",
+  "dependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.6.2",
+    "fs-promise": "^2.0.1",
+    "js-yaml": "^3.8.2",
+    "lodash": "^4.17.4",
+    "mobx": "^3.1.7",
+    "mz": "^2.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "mockery": "^2.0.0",
+    "xo": "^0.18.0"
+  },
+  "scripts": {
+    "test": "xo && ava && flow"
+  }
+}
