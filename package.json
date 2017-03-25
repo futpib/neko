@@ -20,6 +20,7 @@
   "scripts": {
     "test": "xo && ava",
     "xo": "xo",
-    "ava": "ava"
+    "ava": "ava",
+    "start": "electron ."
   }
 }
